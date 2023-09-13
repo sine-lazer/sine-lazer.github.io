@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #4000ff; /* Set background color to #4000ff */
+    margin: 0;
+    color: black;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    padding: 0 5px;
+}
+
+.text-wrapper {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.default-text, .hover-text {
+    font-size: 10vw; /* Increased font size */
+    font-weight: bold; /* Set text to bold */
+    transition: opacity 1s;
+    background-color: #4000ff; /* Highlight color */
+    padding: 0 10px; /* Adjusted padding for bigger text */
+    color: #ff0000; /* Set text color to white for better contrast */
+    display: none;
+}
+
+.default-text {
+    display: block;
+}
+
+.text-wrapper:hover .default-text {
+    display: none;
+}
+
+.text-wrapper:hover .hover-text {
+    display: block;
+}
+.click-text {
+    display: none;  /* Hidden by default */
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: #4000ff;
+    padding: 0 10px;
+    color: white;
+}
+.click-text {
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: #4000ff;
+    padding: 0 10px;
+    color: white;
+    display: none;
+}
+.text-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;  /* Add this line */
+}
+.window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Vertically center content */
+    align-items: center;      /* Horizontally center content */
+    height: 100vh;            /* Ensure it takes up the whole viewport height */
+    position: relative;
+    width: max-content;
+    padding: 50px;
+}
