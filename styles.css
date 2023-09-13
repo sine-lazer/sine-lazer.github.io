@@ -4,7 +4,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #4000ff; /* Set background color to #4000ff */
+    background-color: #BB8F3F; /* main BG color*/
     margin: 0;
     color: black;
 }
@@ -30,9 +30,9 @@ body {
     font-size: 10vw; /* Increased font size */
     font-weight: bold; /* Set text to bold */
     transition: opacity 1s;
-    background-color: #4000ff; /* Highlight color */
+    background-color: #BB8F3F; /* Highlight color */
     padding: 0 10px; /* Adjusted padding for bigger text */
-    color: #ff0000; /* Set text color to white for better contrast */
+    color: #303033; /* Set text color to white for better contrast */
     display: none;
 }
 
@@ -51,14 +51,14 @@ body {
     display: none;  /* Hidden by default */
     font-size: 4vw;
     font-weight: bold;
-    background-color: #4000ff;
+    background-color: #BB8F3F;
     padding: 0 10px;
     color: white;
 }
 .click-text {
     font-size: 4vw;
     font-weight: bold;
-    background-color: #4000ff;
+    background-color: #BB8F3F;
     padding: 0 10px;
     color: white;
     display: none;
